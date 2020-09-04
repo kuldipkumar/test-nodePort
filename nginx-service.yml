@@ -10,6 +10,6 @@ spec:
   ports:
   - name: nginx-service
     port: 80
-    targetPort: 80
+    targetPort: 8080
     protocol: TCP
     nodePort: 31006
